@@ -8,9 +8,7 @@ This Ruby on Rails application provides a simple wrapper for the [PokeAPI](https
   - [Installation](#installation)
 - [Usage](#usage)
   - [Fetching Pokémon Information](#fetching-pokémon-information)
-- [Contributing](#contributing)
-- [License](#license)
-
+  
 ## Getting Started
 
 ### Prerequisites
@@ -31,16 +29,19 @@ Make sure you have the following installed on your machine:
 
 ### Usage
 
-Fetching Pokémon Information
+#### Fetching Pokémon Information
+
 You can retrieve information about a specific Pokémon by making a GET request to the following endpoint:
 
 ```bash
 GET /api/pokemon/:name
+```
 
-Replace :name with the name of the Pokémon you want to retrieve. For example:
+ Replace :name with the name of the Pokémon you want to retrieve. For example:
 
 ```bash
 GET http://localhost:3000/api/pokemon/charmander
+```
 
 The response will contain information about the specified Pokémon.
 The response will be in JSON format and will include details such as the Pokémon's name, abilities, and more.
